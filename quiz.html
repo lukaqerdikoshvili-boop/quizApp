@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="quiz.css" rel="stylesheet" />
+  </head>
+  <body>
+    <span class="question">Hello</span>
+
+    <div class="container">
+      <button class="Answer1 answer">Click Start</button>
+      <button class="Answer2 answer">Click Start</button>
+      <button class="Answer3 answer">Click Start</button>
+      <button class="Answer4 answer">Click Start</button>
+    </div>
+    <p class="correctAnswer"></p>
+
+    <p class="score txt">score 0</p>
+    <button class="startBtn btn">Start</button>
+    <span class="questionCounter txt">1 / 10</span>
+    <button class="nextBtn btn">Next</button>
+
+    <div class="overlay hidden"></div>
+    <div class="modal hidden">
+      <p class="endText"></p>
+      <button class="resetBtn">Reset</button>
+    </div>
+    <script type="module" src="quiz.js"></script>
+  </body>
+</html>
